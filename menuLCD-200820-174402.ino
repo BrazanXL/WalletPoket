@@ -1,19 +1,19 @@
 #include <LiquidCrystal.h>
 
 //LCD display pins
-#define LCD_RS 12
-#define LCD_EN 11
-#define LCD_D4 5
-#define LCD_D5 4
-#define LCD_D6 3 
-#define LCD_D7 2
+#define LCD_RS 15
+#define LCD_EN 17
+#define LCD_D4 2
+#define LCD_D5 0
+#define LCD_D6 4 
+#define LCD_D7 16
 
 //Rotary 1 encoder (dial) pins
-#define ROT1_EN_A 7  
-#define ROT1_EN_B 10
-#define BTN_MENU A3
+#define ROT1_EN_A 35  
+#define ROT1_EN_B 34
+#define BTN_MENU 32
 
-#define BTN_BACK A0
+#define BTN_BACK 33
 
 #define VIDEO 2
 
